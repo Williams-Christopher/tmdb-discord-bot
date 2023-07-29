@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.test
+.vscode/
+*.code-workspace
+.DS_Store
+tmp/
+temp/
