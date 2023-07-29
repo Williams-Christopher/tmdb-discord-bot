@@ -1,0 +1,22 @@
+{
+  "name": "tmdb-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot to look up movie and show information on TMDB",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "start-core-fetch": "node --experimental-fetch bot.js",
+    "dev": "nodemon bot.js",
+    "dev-core-fetch": "nodemon --experimental-fetch bot.js"
+  },
+  "author": "Christopher Williams <cw@chriswillia.ms>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.0.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
