@@ -27,6 +27,7 @@
 - [x] Use `node fetch` package to remove Node >=17.5 requirement
     - If fetch is not available in Node.js Core then `node-fetch` will be used
 - [ ] Update this file with deployment instructions
+    - [ ] What service is useful for hosting Discord bots?
 - [ ] Figure out a nice interface for:
     - [ ] Searching for movies, tv, or people aside from making requests to the `/multi` API
     - [ ] Pagination -  What if you didn't want the first or most popular result?
